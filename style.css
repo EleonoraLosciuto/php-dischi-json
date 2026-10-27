@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-app {
+    background-color: rgb(76, 76, 76);
+    height: 100dvh;
+    overflow: auto;
+    color: white;
+}
+
+header.header.nav-bar {
+    background-color: black;
+    height: 5rem;
+    width: 100dvw;
+    display: flex;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+
+#logoSpotify {
+    height: 3rem;
+}
+
+.music {
+    padding: 1rem 2rem;
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    align-items: center;
+    text-align: center;
+}
+
+.music * {
+    min-height: 250px;
+    border: 2px dashed white;
+}
