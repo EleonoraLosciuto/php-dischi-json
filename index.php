@@ -1,12 +1,9 @@
 <?php
 
-    // step 1 - ricevo informazione sui dischi dal mio server JSON
-    $dischi_string = file_get_contents('./dischi.json');
-
-    // step 2 - uso json decode per leggere correttamente l'informazione
-    $dischi = json_decode($dischi_string);
-    var_dump($dischi);
-
+    require_once('functions.php');
+    
+    $dischi = getAlbums();
+    
 ?>
 
 <!DOCTYPE html>
@@ -27,17 +24,17 @@
             </header>
             <main>
                 <div class="music">
-                    <div class="music-album-card">
-                        <img class="music-poster" src="./assets/After-Hours.jpg" alt="After Hours">
-                        <h3>Titolo</h3>
-                        <p>Autore</p>
-                        <h4>Anno</h4>
-                    </div>
-                    <div>album</div>
-                    <div>album</div>
-                    <div>album</div>
-                    <div>album</div>
-                    <div>album</div>
+                <?php
+                    foreach($dischi as $disco) {
+                        $img_disco = "<img class='music-poster' src=" . $disco['poster'] . " alt=" . $disco['title'] . "/>";
+                        $titolo = "<h3>" . $disco['title'] . "</h3>";
+                        $autore = "<p>" . $disco['author'] . "</p>";
+                        $anno = "<h4>" . $disco['year'] . "</h4>";
+
+                        echo "<div class='music-album-card'>" . $img_disco . $titolo . $autore . $anno . "</div>";
+                    };
+
+                ?>
                 </div>
             </main>
         </div>
