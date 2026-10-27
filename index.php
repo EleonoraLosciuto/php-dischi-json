@@ -25,16 +25,17 @@
             <main>
                 <div class="music">
                 <?php
-                    foreach($dischi as $disco) {
-                        $img_disco = "<img class='music-poster' src=" . $disco['poster'] . " alt=" . $disco['title'] . "/>";
-                        $titolo = "<h3>" . $disco['title'] . "</h3>";
-                        $autore = "<p>" . $disco['author'] . "</p>";
-                        $anno = "<h4>" . $disco['year'] . "</h4>";
-
-                        echo "<div class='music-album-card'>" . $img_disco . $titolo . $autore . $anno . "</div>";
+                    foreach($dischi as $disco) { 
+                    ?>
+                    <div class="music-album-card">
+                        <img class='music-poster' src=<?php echo $disco['poster']?> alt=<?php echo $disco['title']?>/>
+                        <h3><?php echo $disco['title']?></h3>
+                        <p><?php echo $disco['author']?></p>
+                        <h4><?php echo $disco['year']?></h4>
+                    </div>
+                    <?php 
                     };
-
-                ?>
+                    ?>
                 </div>
             </main>
         </div>
