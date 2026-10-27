@@ -2,35 +2,35 @@
     {
         "title": "After Hours",
         "author": "The Weeknd",
-        "poster": "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Weeknd_-_After_Hours.png",
+        "poster": "./assets/After-Hours.jpg",
         "year": 2020,
         "genre": "R&B"
     },
     {
         "title": "Woodstock",
         "author": "Portugal. The Man",
-        "poster": "https://upload.wikimedia.org/wikipedia/en/2/2d/Portugal._The_Man_%E2%80%93_Woodstock.png",
+        "poster": "./assets/Woodstock.jpg",
         "year": 2017,
         "genre": "Alternative Rock"
     },
     {
         "title": "True Blue",
         "author": "Madonna",
-        "poster": "https://upload.wikimedia.org/wikipedia/en/3/3b/Madonna_-_True_Blue.png",
+        "poster": "./assets/True-Blue.jpg",
         "year": 1986,
         "genre": "Pop"
     },
     {
         "title": "The Dark Side of the Moon",
         "author": "Pink Floyd",
-        "poster": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png",
+        "poster": "./assets/Darkside-of-the-Moon.png",
         "year": 1973,
         "genre": "Progressive Rock"
     },
     {
         "title": "Underground",
         "author": "Thelonious Monk",
-        "poster": "https://upload.wikimedia.org/wikipedia/en/a/ac/MonkUnderground.jpg",
+        "poster": "./assets/Underground.jpg",
         "year": 1968,
         "genre": "Jazz"
     }
