@@ -40,7 +40,7 @@
                 <hr>
                 <div class="form-section">
                     <h3>Aggiungi un nuovo disco</h3>
-                    <form action="" method="POST">
+                    <form action="./server.php" method="POST">
                         <div class="album-title">
                             <label for="title">Inserisci il nome dell'album</label>
                             <input type="text" name="title" id="title" placeholder="Nome album" required>

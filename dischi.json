@@ -2,36 +2,50 @@
     {
         "title": "After Hours",
         "author": "The Weeknd",
-        "poster": "./assets/After-Hours.jpg",
+        "poster": ".\/assets\/After-Hours.jpg",
         "year": 2020,
         "genre": "R&B"
     },
     {
         "title": "Woodstock",
         "author": "Portugal. The Man",
-        "poster": "./assets/Woodstock.jpg",
+        "poster": ".\/assets\/Woodstock.jpg",
         "year": 2017,
         "genre": "Alternative Rock"
     },
     {
         "title": "True Blue",
         "author": "Madonna",
-        "poster": "./assets/True-Blue.jpg",
+        "poster": ".\/assets\/True-Blue.jpg",
         "year": 1986,
         "genre": "Pop"
     },
     {
         "title": "The Dark Side of the Moon",
         "author": "Pink Floyd",
-        "poster": "./assets/Darkside-of-the-Moon.png",
+        "poster": ".\/assets\/Darkside-of-the-Moon.png",
         "year": 1973,
         "genre": "Progressive Rock"
     },
     {
         "title": "Underground",
         "author": "Thelonious Monk",
-        "poster": "./assets/Underground.jpg",
+        "poster": ".\/assets\/Underground.jpg",
         "year": 1968,
         "genre": "Jazz"
+    },
+    {
+        "title": "The Wall",
+        "author": "Pink Floyd",
+        "poster": "https:\/\/thumb.wikimedia.org\/wikipedia\/commons\/thumb\/b\/b1\/The_Wall_Cover.svg\/1280px-The_Wall_Cover.svg.png?utm_source=es.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "year": "1979",
+        "genre": "Progressive Rock"
+    },
+    {
+        "title": "I Like It When You Sleep, for You Are So Beautiful yet So Unaware of It",
+        "author": "The 1975",
+        "poster": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/9\/91\/The_1975_-_I_Like_It_When_You_Sleep%2C_for_You_Are_So_Beautiful_Yet_So_Unaware_of_It.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "year": "2016",
+        "genre": "Alternative Rock"
     }
 ]
