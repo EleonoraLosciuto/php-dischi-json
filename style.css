@@ -44,9 +44,41 @@ header.header.nav-bar {
     justify-content: flex-start;
     align-items: center;
     gap: .7rem;
+    transition: ease-in 0.5s;
+}
+
+.music .music-album-card:hover {
+    transform: scale(1.1);
 }
 
 .music .music-album-card .music-poster {
     width: 70%;
     margin-top: 0.5rem;
+}
+
+.container-app main hr {
+    margin-top: 2rem;
+}
+
+.form-section {
+    padding: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+.form-section h3 {
+    margin: 0.7rem 0;
+}
+
+.container-app main form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.container-app main form button {
+    width: fit-content;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: azure;
+    border: 1px transparent;
 }
